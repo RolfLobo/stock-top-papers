@@ -36,6 +36,11 @@ If you find this repository helpful consider leaving a :star:
 [Back to top](#table-of-contents)
 
 ## 2024
+* (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading \[[Paper](https://arxiv.org/pdf/2406.14537)\]\[[Code](https://github.com/ZONG0004/MacroHFT)\]
+* (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
+* (WWW 2024) Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools \[[Paper](https://arxiv.org/pdf/2311.10801)\]\[[Code](https://github.com/DVampire/EarnMore)\]
+* (WWW 2024) Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models \[[Paper](https://arxiv.org/abs/2402.03659)\]\[[Code](https://github.com/koa-fin/sep)\]
+* (WWW 2024) FinReport: Explainable Stock Earnings Forecasting via News Factor Analyzing Model \[[Paper](https://arxiv.org/pdf/2403.02647)\]\[[Code](https://github.com/frinkleko/FinReport)\]
 * (AAAI 2024) MASTER: Market-Guided Stock Transformer for Stock Price Forecasting \[[Paper](https://arxiv.org/abs/2312.15235)\]\[[Code](https://github.com/SJTU-Quant/MASTER)\]
 * (AAAI 2024) StockMixer: A Simple yet Strong MLP-based Architecture for Stock Price Forecasting \[[Paper](https://github.com/SJTU-Quant/StockMixer)\]\[[Code](https://github.com/SJTU-Quant/StockMixer)\]
 
@@ -171,6 +176,9 @@ To be done...
 
 ## NLP-based Methods
 
+* (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
+* (WWW 2024) Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models \[[Paper](https://arxiv.org/abs/2402.03659)\]\[[Code](https://github.com/koa-fin/sep)\]
+* (WWW 2024) FinReport: Explainable Stock Earnings Forecasting via News Factor Analyzing Model \[[Paper](https://arxiv.org/pdf/2403.02647)\]\[[Code](https://github.com/frinkleko/FinReport)\]
 * (AAAI 2023) StockEmotions: Discover Investor Emotions for Financial Sentiment Analysis and Multivariate Time Series \[[Paper](https://www.semanticscholar.org/paper/StockEmotions%3A-Discover-Investor-Emotions-for-and-Lee-Youn/13e4e72303a630c4b7e581d59facfc014c846a24)\]\[[Code](https://github.com/adlnlp/StockEmotions)\]
 * (TKDE 2023) Stock Movement Prediction Based on Bi-typed and Hybrid-relational Market Knowledge Graph via Dual Attention Networks \[[Paper](https://www.semanticscholar.org/paper/Stock-Movement-Prediction-Based-on-Bi-Typed-Market-Zhao-Du/dbaf9ff32a00161d777f6f5cd50e4028d733bd0d)\]\[[Code](https://github.com/trytodoit227/DANSMP)\]
 * (2023) FinGPT: Democratizing Internet-scale Data for Financial Large Language Models \[[Paper](https://arxiv.org/abs/2307.10485)\]\[[Code](https://github.com/AI4Finance-Foundation/FinGPT)\]
@@ -203,6 +211,8 @@ To be done...
 
 ## Reinforcement-learning
 
+* (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading \[[Paper](https://arxiv.org/pdf/2406.14537)\]\[[Code](https://github.com/ZONG0004/MacroHFT)\]
+* (WWW 2024) Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools \[[Paper](https://arxiv.org/pdf/2311.10801)\]\[[Code](https://github.com/DVampire/EarnMore)\]
 * (KDD 2023) Efficient Continuous Space Policy Optimization for High-frequency Trading \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599813)\]\[[Code](https://github.com/finint/DRPO)\]
 * (KDD 2023)Generating Synergistic Formulaic Alpha Collections via Reinforcement Learning \[[Paper](https://arxiv.org/pdf/2306.12964)\]\[[Code](https://github.com/RL-MLDM/alphagen)\]
 * (CIKM 2022) DeepScalper: A Risk-Aware Reinforcement Learning Framework to Capture Fleeting Intraday Trading Opportunities \[[Paper](https://www.semanticscholar.org/paper/DeepScalper%3A-A-Risk-Aware-Reinforcement-Learning-to-Sun-He/d57743b30ca50b1480a72ab41a0564f20f183e92)\]\[[Code](https://github.com/TradeMaster-NTU/TradeMaster)\]
