@@ -7,6 +7,7 @@ If you find this repository helpful consider leaving a :star:
 # Table of Contents
 
 * [Sorted by Time](#sorted-by-time)
+    * [2024](#2024)
     * [2023](#2023)
     * [2022](#2022)
     * [2021](#2021)
@@ -36,6 +37,7 @@ If you find this repository helpful consider leaving a :star:
 [Back to top](#table-of-contents)
 
 ## 2024
+* (KDD 2024) FNSPID: A Comprehensive Financial News Dataset in Time Series \[[Paper](https://arxiv.org/abs/2402.06698)\]\[[Code](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)\]
 * (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading \[[Paper](https://arxiv.org/pdf/2406.14537)\]\[[Code](https://github.com/ZONG0004/MacroHFT)\]
 * (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
 * (WWW 2024) Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools \[[Paper](https://arxiv.org/pdf/2311.10801)\]\[[Code](https://github.com/DVampire/EarnMore)\]
