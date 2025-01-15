@@ -7,6 +7,7 @@ If you find this repository helpful consider leaving a :star:
 # Table of Contents
 
 * [Sorted by Time](#sorted-by-time)
+    * [2025](#2025)
     * [2024](#2024)
     * [2023](#2023)
     * [2022](#2022)
@@ -36,7 +37,12 @@ If you find this repository helpful consider leaving a :star:
 
 [Back to top](#table-of-contents)
 
+## 2025
+* (ICASSP 2025) Mamba Meets Financial Markets: A Graph-Mamba Approach for Stock Price Prediction \[[Paper](https://arxiv.org/abs/2410.03707)\]\[[Code](https://github.com/Ali-Meh619/SAMBA)\]
+
 ## 2024
+* (NeurIPS 2024) A Global Optimal Portfolio for m-Sparse Sharpe Ratio Maximization \[[Paper](https://arxiv.org/abs/2410.21100)\]\[[Code](https://github.com/linyizun2024/mSSRM/tree/main)\]
+* (NeurIPS 2024) ROIDICE: Offline Return on Investment Maximization for Efficient Decision Making \[[Paper](https://openreview.net/pdf?id=6Kg26g1quR)\]\[[Code](https://github.com/ku-dmlab/ROIDICE)\]
 * (KDD 2024) FNSPID: A Comprehensive Financial News Dataset in Time Series \[[Paper](https://arxiv.org/abs/2402.06698)\]\[[Code](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)\]
 * (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading \[[Paper](https://arxiv.org/pdf/2406.14537)\]\[[Code](https://github.com/ZONG0004/MacroHFT)\]
 * (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
@@ -194,6 +200,7 @@ To be done...
 
 ## Graph Learning
 
+* (ICASSP 2025) Mamba Meets Financial Markets: A Graph-Mamba Approach for Stock Price Prediction \[[Paper](https://arxiv.org/abs/2410.03707)\]\[[Code](https://github.com/Ali-Meh619/SAMBA)\]
 * (ICDE 2023) Relational Temporal Graph Convolutional Network for Ranking-based Stock Prediction \[[Paper](https://ieeexplore.ieee.org/document/10184655)\]\[[Code](https://github.com/zhengzetao/RTGCN)\]
 * (TKDE 2023) Stock Movement Prediction Based on Bi-typed and Hybrid-relational Market Knowledge Graph via Dual Attention Networks \[[Paper](https://www.semanticscholar.org/paper/Stock-Movement-Prediction-Based-on-Bi-Typed-Market-Zhao-Du/dbaf9ff32a00161d777f6f5cd50e4028d733bd0d)\]\[[Code](https://github.com/trytodoit227/DANSMP)\]
 * (CIKM 2022) Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction \[[Paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557089)\]\[[Code](https://github.com/finint/THGNN)\]
