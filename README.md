@@ -6,38 +6,48 @@ If you find this repository helpful consider leaving a :star:
 
 # Table of Contents
 
-* [Sorted by Time](#sorted-by-time)
-    * [2025](#2025)
-    * [2024](#2024)
-    * [2023](#2023)
-    * [2022](#2022)
-    * [2021](#2021)
-    * [2020](#2020)
-    * [Older Papers](#older-papers)
-* [Sorted by Tasks](#sorted-by-tasks)
-    * [Stock Price Prediction](#stock-price-prediction)
-    * [Stock Trading](#stock-trading)
-    * [Asset Pricing](#asset-pricing)
-    * [Risk Modeling](#risk-modeling)
-* [Sorted by Models](#sorted-by-models)
-    * [Diffusion Model](#diffusion-model)
-    * [Transformer](#transformer)
-    * [Variational Autoencoder](#variational-autoencoder)
-* [Sorted by Methods](#sorted-by-methods)
-    * [NLP-based Methods](#nlp-based-methods)
-    * [Graph Learning](#graph-learning)
-    * [Reinforcement-learning](#reinforcement-learning)
-    * [Multi-task Learning](#multi-task-learning)
-    * [Meta-learning](#meta-learning)
-    * [Contrastive Learning](#contrastive-learning)
-    * [Curriculum Learning](#curriculum-learning)
-    * [Ensemble Learning](#ensemble-learning)
+- [About](#about)
+- [Table of Contents](#table-of-contents)
+- [Sorted by Time](#sorted-by-time)
+  - [2025](#2025)
+  - [2024](#2024)
+  - [2023](#2023)
+  - [2022](#2022)
+  - [2021](#2021)
+  - [2020](#2020)
+  - [Older Papers](#older-papers)
+- [Sorted by Tasks](#sorted-by-tasks)
+  - [Stock Price Prediction](#stock-price-prediction)
+  - [Stock Trading](#stock-trading)
+  - [Asset Pricing](#asset-pricing)
+  - [Risk Modeling](#risk-modeling)
+  - [Volatility \& Risk Forecasting](#volatility--risk-forecasting)
+- [Sorted by Models](#sorted-by-models)
+  - [Transformer](#transformer)
+  - [Graph Neural Networks](#graph-neural-networks)
+  - [Large Language Models](#large-language-models)
+  - [Other Models (SSM/Mamba, MLP, MoE, Foundation, Generative)](#other-models-ssmmamba-mlp-moe-foundation-generative)
+- [Sorted by Methods](#sorted-by-methods)
+  - [NLP-based Methods](#nlp-based-methods)
+  - [Graph Learning](#graph-learning)
+  - [Reinforcement-learning](#reinforcement-learning)
+  - [Meta- \& Multi-task Learning](#meta---multi-task-learning)
+  - [Retrieval-Augmented](#retrieval-augmented)
+  - [Factor Modeling](#factor-modeling)
+  - [Uncertainty \& Probabilistic Modeling](#uncertainty--probabilistic-modeling)
+- [Datasets \& Benchmarks](#datasets--benchmarks)
 
 # Sorted by Time
 
 [Back to top](#table-of-contents)
 
 ## 2025
+* (KDD 2025) Learning Universal Multi-level Market Irrationality Factors to Improve Stock Return Forecasting \[[Paper](https://arxiv.org/pdf/2502.04737)\]\[[Code](https://github.com/lIcIIl/UMI)\]
+* (KDD 2025) Pre-training Time Series Models with Stock Data Customization \[[Paper](https://arxiv.org/abs/2506.16746)\]\[[Code](https://github.com/astudentuser/Pre-training-Time-Series-Models-with-Stock-Data-Customization)\]
+* (KDD 2025) Progressive Dependency Representation Learning for Stock Ranking in Uncertain Risk Contrasting \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3690624.3709189)\]\[[Code](https://github.com/xieyanzhe/PDU)\]
+* (KDD 2025) Multi-period Learning for Financial Time Series Forecasting \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3690624.3709422)\]\[[Code](https://github.com/Meteor-Stars/MLF)\]
+* (WWW 2025) HRFT: Mining High-Frequency Risk Factor Collections End-to-End via Transformer \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715235)\]\[[Code](https://github.com/wencyxu/IRF-LLM-accepted-at-WWW25-)\]
+* (WWW 2025) MERA: Mixture of Experts with Retrieval-Augmented Representation for Modeling Diversified Stock Patterns \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715513)\]\[[Code](https://github.com/chenchen1104/MERA)\]
 * (ICASSP 2025) Mamba Meets Financial Markets: A Graph-Mamba Approach for Stock Price Prediction \[[Paper](https://arxiv.org/abs/2410.03707)\]\[[Code](https://github.com/Ali-Meh619/SAMBA)\]
 
 ## 2024
@@ -149,32 +159,70 @@ If you find this repository helpful consider leaving a :star:
 
 ## Stock Trading
 
-To be done...
+* (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading [[Paper](https://arxiv.org/pdf/2406.14537)][[Code](https://github.com/ZONG0004/MacroHFT)]
+* (WWW 2024) Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools [[Paper](https://arxiv.org/pdf/2311.10801)][[Code](https://github.com/DVampire/EarnMore)]
+* (KDD 2023) Efficient Continuous Space Policy Optimization for High-frequency Trading [[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599813)][[Code](https://github.com/finint/DRPO)]
+* (KDD 2023)Generating Synergistic Formulaic Alpha Collections via Reinforcement Learning [[Paper](https://arxiv.org/pdf/2306.12964)][[Code](https://github.com/RL-MLDM/alphagen)]
+* (CIKM 2022) DeepScalper: A Risk-Aware Reinforcement Learning Framework to Capture Fleeting Intraday Trading Opportunities [[Paper](https://www.semanticscholar.org/paper/DeepScalper%3A-A-Risk-Aware-Reinforcement-Learning-to-Sun-He/d57743b30ca50b1480a72ab41a0564f20f183e92)][[Code](https://github.com/TradeMaster-NTU/TradeMaster)]
+* (2022) Safe-FinRL: A Low Bias and Variance Deep Reinforcement Learning Implementation for High-Freq Stock Trading [[Paper](https://arxiv.org/abs/2206.05910)][[Code](https://github.com/Tsedao/Safe-FinRL)]
+* (ESWA 2020) Time-driven feature-aware jointly deep reinforcement learning for financial signal representation and algorithmic trading [[Paper](https://www.sciencedirect.com/science/article/pii/S0957417419305822?via%3Dihub)][[Code](https://github.com/Lingfeng158/TFJ-DRL-Replication)]
+* (IJCAI 2020) An End-to-End Optimal Trade Execution Framework based on Proximal Policy Optimization [[Paper](https://www.ijcai.org/Proceedings/2020/627?msclkid=a2b6ad5db7ca11ecb537627a9ca1d4f6)][[Code](https://github.com/TradeMaster-NTU/TradeMaster)]
+* (AAAI 2021) Universal Trading for Order Execution with Oracle Policy Distillation [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16083)][[Code](https://github.com/TradeMaster-NTU/TradeMaster)]
 
 ## Asset Pricing
 
-To be done...
+* (KDD 2025) Learning Universal Multi-level Market Irrationality Factors to Improve Stock Return Forecasting [[Paper](https://arxiv.org/pdf/2502.04737)][[Code](https://github.com/lIcIIl/UMI)]
+* (CIKM 2021) Attention Based Dynamic Graph Learning Framework for Asset Pricing [[Paper](https://dl.acm.org/doi/abs/10.1145/3459637.3482413)][[Code](https://github.com/Ajim63/Attention-Based-Dynamic-Graph-Learning-Framework-for-Asset-Pricing)]
+* (2020) Open Source Cross-Sectional Asset Pricing [[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3604626)][[Code](https://github.com/Sakura-Fire-Capital/CrossSection)]
+* (AAAI 2022) FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20369/20128)][[Code](https://github.com/UePG-21/facvae)]
 
 ## Risk Modeling
 
-To be done...
+* (WWW 2025) HRFT: Mining High-Frequency Risk Factor Collections End-to-End via Transformer [[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715235)][[Code](https://github.com/wencyxu/IRF-LLM-accepted-at-WWW25-)]
+* (CIKM 2022) DeepScalper: A Risk-Aware Reinforcement Learning Framework to Capture Fleeting Intraday Trading Opportunities [[Paper](https://www.semanticscholar.org/paper/DeepScalper%3A-A-Risk-Aware-Reinforcement-Learning-to-Sun-He/d57743b30ca50b1480a72ab41a0564f20f183e92)][[Code](https://github.com/TradeMaster-NTU/TradeMaster)]
+* (2022) Safe-FinRL: A Low Bias and Variance Deep Reinforcement Learning Implementation for High-Freq Stock Trading [[Paper](https://arxiv.org/abs/2206.05910)][[Code](https://github.com/Tsedao/Safe-FinRL)]
 
+
+## Volatility & Risk Forecasting
+
+* (WWW 2025) HRFT: Mining High-Frequency Risk Factor Collections End-to-End via Transformer [[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715235)][[Code](https://github.com/wencyxu/IRF-LLM-accepted-at-WWW25-)]
+* (ACM MM 2020) Multimodal Multi-Task Financial Risk Forecasting [[Paper](https://dl.acm.org/doi/10.1145/3394171.3413752)][[Code](https://github.com/midas-research/multimodal-financial-forecasting)]
+* (UAI 2021) Modeling Financial Uncertainty with Multivariate Temporal Entropy-based Curriculums [[Paper](https://www.auai.org/uai2021/pdf/uai2021.638.preliminary.pdf)][[Code](https://github.com/midas-research/finclass-uai)]
 
 # Sorted by Models
 
 [Back to top](#table-of-contents)
 
-## Diffusion Model
-
-* (2023) Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction \[[Paper](https://arxiv.org/abs/2309.00073)\]\[[Code](https://github.com/koa-fin/dva)\]
-
 ## Transformer
 
+* (AAAI 2024) MASTER: Market-Guided Stock Transformer for Stock Price Forecasting \[[Paper](https://arxiv.org/abs/2312.15235)\]\[[Code](https://github.com/SJTU-Quant/MASTER)\]
 * (IJCAI 2023) StockFormer: Learning Hybrid Trading Machines with Predictive Coding \[[Paper](https://www.ijcai.org/proceedings/2023/0530.pdf)\]\[[Code](https://github.com/gsyyysg/StockFormer)\]
 * (KDD 2021) Accurate Multivariate Stock Movement Prediction via Data-Axis Transformer with Multi-Level Contexts \[[Paper](https://datalab.snu.ac.kr/~ukang/papers/dtmlKDD21.pdf)\]\[[Code](https://github.com/simonjisu/DTML-pytorch)\]
 
-## Variational Autoencoder
 
+## Graph Neural Networks
+
+* (ICDE 2023) Relational Temporal Graph Convolutional Network for Ranking-based Stock Prediction \[[Paper](https://ieeexplore.ieee.org/document/10184655)\]\[[Code](https://github.com/zhengzetao/RTGCN)\]
+* (TKDE 2023) Stock Movement Prediction Based on Bi-typed and Hybrid-relational Market Knowledge Graph via Dual Attention Networks \[[Paper](https://www.semanticscholar.org/paper/Stock-Movement-Prediction-Based-on-Bi-Typed-Market-Zhao-Du/dbaf9ff32a00161d777f6f5cd50e4028d733bd0d)\]\[[Code](https://github.com/trytodoit227/DANSMP)\]
+* (CIKM 2022) Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction \[[Paper](https://dl.acm.org/doi/abs/10.1145/3511808.3557089)\]\[[Code](https://github.com/finint/THGNN)\]
+* (2022) Inductive Representation Learning on Dynamic Stock Co-Movement Graphs for Stock Predictions \[[Paper](https://www.biz.uiowa.edu/faculty/kangzhao/pub/ijoc_2022.pdf)\]\[[Code](https://github.com/Hugo-CAS/Dynamic-Stock-Co-Movement-Graphs-for-Stock-Predictions)\]
+* (2021) HIST: A Graph-based Framework for Stock Trend Forecasting via Mining Concept-Oriented Shared Information \[[Paper](http://arxiv.org/abs/2110.13716)\]\[[Code](https://github.com/Wentao-Xu/HIST)\]
+* (ICDM 2020) Spatiotemporal Hypergraph Convolution Network for Stock Movement Forecasting \[[Paper](https://ieeexplore.ieee.org/document/9338303/)\]\[[Code](https://github.com/midas-research/sthgcn-icdm)\]
+* (2019) HATS: A Hierarchical Graph Attention Network for Stock Movement Prediction \[[Paper](https://arxiv.org/abs/1908.07999)\]\[[Code](https://github.com/dmis-lab/hats)\]
+
+
+## Large Language Models
+
+* (2023) FinGPT: Democratizing Internet-scale Data for Financial Large Language Models \[[Paper](https://arxiv.org/abs/2307.10485)\]\[[Code](https://github.com/AI4Finance-Foundation/FinGPT)\]
+* (WWW 2024) Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models \[[Paper](https://arxiv.org/abs/2402.03659)\]\[[Code](https://github.com/koa-fin/sep)\]
+* (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
+
+## Other Models (SSM/Mamba, MLP, MoE, Foundation, Generative)
+
+* (ICASSP 2025) Mamba Meets Financial Markets: A Graph-Mamba Approach for Stock Price Prediction \[[Paper](https://arxiv.org/abs/2410.03707)\]\[[Code](https://github.com/Ali-Meh619/SAMBA)\]
+* (AAAI 2024) StockMixer: A Simple yet Strong MLP-based Architecture for Stock Price Forecasting \[[Paper](https://github.com/SJTU-Quant/StockMixer)\]\[[Code](https://github.com/SJTU-Quant/StockMixer)\]
+* (WWW 2025) MERA: Mixture of Experts with Retrieval-Augmented Representation for Modeling Diversified Stock Patterns \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715513)\]\[[Code](https://github.com/chenchen1104/MERA)\]
+* (KDD 2025) Pre-training Time Series Models with Stock Data Customization \[[Paper](https://arxiv.org/abs/2506.16746)\]\[[Code](https://github.com/astudentuser/Pre-training-Time-Series-Models-with-Stock-Data-Customization)\]
 * (2023) Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction \[[Paper](https://arxiv.org/abs/2309.00073)\]\[[Code](https://github.com/koa-fin/dva)\]
 * (AAAI 2022) FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns \[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20369/20128)\]\[[Code](https://github.com/UePG-21/facvae)\]
 
@@ -220,6 +268,8 @@ To be done...
 
 ## Reinforcement-learning
 
+* (NeurIPS 2024) ROIDICE: Offline Return on Investment Maximization for Efficient Decision Making \[[Paper](https://openreview.net/pdf?id=6Kg26g1quR)\]\[[Code](https://github.com/ku-dmlab/ROIDICE)\]
+* (2023) MOPO-LSI: A User Guide \[[Paper](https://arxiv.org/abs/2307.01719)\]\[[Code](https://github.com/irecsys/MOPO-LSI)\]
 * (KDD 2024) MacroHFT: Memory Augmented Context-aware Reinforcement Learning On High Frequency Trading \[[Paper](https://arxiv.org/pdf/2406.14537)\]\[[Code](https://github.com/ZONG0004/MacroHFT)\]
 * (WWW 2024) Reinforcement Learning with Maskable Stock Representation for Portfolio Management in Customizable Stock Pools \[[Paper](https://arxiv.org/pdf/2311.10801)\]\[[Code](https://github.com/DVampire/EarnMore)\]
 * (KDD 2023) Efficient Continuous Space Policy Optimization for High-frequency Trading \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599813)\]\[[Code](https://github.com/finint/DRPO)\]
@@ -237,28 +287,33 @@ To be done...
 * (ESWA 2020) Time-driven feature-aware jointly deep reinforcement learning for financial signal representation and algorithmic trading \[[Paper](https://www.sciencedirect.com/science/article/pii/S0957417419305822?via%3Dihub)\]\[[Code](https://github.com/Lingfeng158/TFJ-DRL-Replication)\]
 * (2017) A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem \[[Paper](https://arxiv.org/abs/1706.10059)\]\[[Code](https://github.com/TradeMaster-NTU/TradeMaster)\]
 
-
-
-
-
-## Meta-learning
+## Meta- & Multi-task Learning
 
 * (KDD 2023) DoubleAdapt: A Meta-learning Approach to Incremental Learning for Stock Trend Forecasting \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599315)\]\[[Code](https://github.com/SJTU-Quant/qlib)\]
 * (2023) Generative Meta-Learning Robust Quality-Diversity Portfolio \[[Paper](https://arxiv.org/abs/2307.07811)\]\[[Code](https://github.com/kayuksel/generative-opt)\]
-
-## Multi-task Learning
-
 * (2022) Quantitative Stock Investment by Routing Uncertainty-Aware Trading Experts: A Multi-Task Learning Approach \[[Paper](https://arxiv.org/abs/2207.07578)\]\[[Code](https://github.com/johnson7788/AlphaMix)\]
 * (ACM MM 2020) Multimodal Multi-Task Financial Risk Forecasting \[[Paper](https://dl.acm.org/doi/10.1145/3394171.3413752)\]\[[Code](https://github.com/midas-research/multimodal-financial-forecasting)\]
 
-## Contrastive Learning
 
-* (CIKM 2021) Stock Trend Prediction with Multi-granularity Data: A Contrastive Learning Approach with Adaptive Fusion \[[Paper](http://staff.ustc.edu.cn/~cheneh/paper_pdf/2021/Min-Hou-CIKM.pdf)\]\[[Code](https://github.com/CMLF-git-dev/CMLF)\]
+## Retrieval-Augmented
 
-## Curriculum Learning
+* (WWW 2025) MERA: Mixture of Experts with Retrieval-Augmented Representation for Modeling Diversified Stock Patterns \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715513)\]\[[Code](https://github.com/chenchen1104/MERA)\]
+* (COLING 2024) AlphaFin: Benchmarking Financial Analysis with Retrieval Augmented Stock-Chain Framework \[[Paper](https://arxiv.org/pdf/2403.12582)\]\[[Code](https://github.com/AlphaFin-proj/AlphaFin)\]
+* (WWW 2024) Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models \[[Paper](https://arxiv.org/abs/2402.03659)\]\[[Code](https://github.com/koa-fin/sep)\]
 
+## Factor Modeling
+
+* (KDD 2025) Learning Universal Multi-level Market Irrationality Factors to Improve Stock Return Forecasting \[[Paper](https://arxiv.org/pdf/2502.04737)\]\[[Code](https://github.com/lIcIIl/UMI)\]
+* (WWW 2025) HRFT: Mining High-Frequency Risk Factor Collections End-to-End via Transformer \[[Paper](https://dl.acm.org/doi/pdf/10.1145/3701716.3715235)\]\[[Code](https://github.com/wencyxu/IRF-LLM-accepted-at-WWW25-)\]
+* (AAAI 2022) FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns \[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20369/20128)\]\[[Code](https://github.com/UePG-21/facvae)\]
+
+## Uncertainty & Probabilistic Modeling
+
+* (2023) Diffusion Variational Autoencoder for Tackling Stochasticity in Multi-Step Regression Stock Price Prediction \[[Paper](https://arxiv.org/abs/2309.00073)\]\[[Code](https://github.com/koa-fin/dva)\]
+* (AAAI 2022) FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns \[[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20369/20128)\]\[[Code](https://github.com/UePG-21/facvae)\]
 * (UAI 2021) Modeling Financial Uncertainty with Multivariate Temporal Entropy-based Curriculums \[[Paper](https://www.auai.org/uai2021/pdf/uai2021.638.preliminary.pdf)\]\[[Code](https://github.com/midas-research/finclass-uai)\]
 
-## Ensemble Learning
+# Datasets & Benchmarks
 
-* (ICDM 2020) DoubleEnsemble: A New Ensemble Method Based on Sample Reweighting and Feature Selection for Financial Data Analysis \[[Paper](https://www.semanticscholar.org/paper/DoubleEnsemble%3A-A-New-Ensemble-Method-Based-on-and-Zhang-Li/96d8383288eba50d69f516522154cf52625c7a4f)\]\[[Code](https://github.com/Sakura-Fire-Capital/DoubleEnsembleML)\]
+* (KDD 2024) FNSPID: A Comprehensive Financial News Dataset in Time Series \[[Paper](https://arxiv.org/abs/2402.06698)\]\[[Code](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)\]
+* (NeurIPS workshop 2022) FinRL-Meta: Market Environments and Benchmarks for Data-Driven Financial Reinforcement Learning \[[Paper](https://openreview.net/pdf?id=LkAFwrqdRY6)\]\[[Code](https://github.com/AI4Finance-Foundation/FinRL-Meta)\]
